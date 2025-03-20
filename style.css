@@ -11,6 +11,7 @@ header {
     color: white;
     padding: 20px;
     position: relative;
+    border-radius: 5px;
 }
 
 .container {
@@ -44,7 +45,7 @@ footer {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #fff;
+    border: 2px solid #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 10px 0;
 }
@@ -64,8 +65,8 @@ footer {
 }
 
 .btn-success:hover {
-    background-color: #183e6e;
-    border-color: #1e7e34;
+    background-color: #333;
+    border-color: #333;
 }
 
 ul {
@@ -93,4 +94,41 @@ ul li:hover {
 
 th{
     color: black;
+}
+
+/* Estilo para os links de redes sociais */
+.social-links {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.social-links i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.social-links a:hover {
+    color: #333;
+    transition: color 0.3s ease-in-out;
+}
+
+.btn-success {
+    background-color: #333; /* Cor de fundo para #333 */
+    border-color: #333; /* Cor da borda para #333 */
+}
+
+.btn-success:hover {
+    background-color: #555; /* Cor de fundo quando o botão é hover para #555 (um tom mais claro) */
+    border-color: #555; /* Cor da borda quando o botão é hover para #555 */
 }
