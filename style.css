@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #708a6a;
+}
+
+.hobbies-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hobbies-list {
+    display: none;
+    list-style-type: none;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.hobbies-list.show {
+    display: block;
+}
+
+.projetos {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.projeto {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 40%;
+    text-align: left;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.imagem-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+}
+
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
