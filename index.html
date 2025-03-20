@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Bruno Zotareli Fernandes</title>
 
-
     <link href="style.css" rel="stylesheet">
     <!-- Link para o Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Adicionado FontAwesome -->
 </head>
 <body>
 
@@ -23,6 +23,23 @@
             <p><strong>Idade:</strong> 21 anos</p>
             <p><strong>Cidade:</strong> Maringá, Paraná</p>
             <p><strong>Cargo:</strong> Estagiário de Suporte na Tributech</p>
+
+            <!-- Adicionando o botão de Redes Sociais -->
+            <div class="mb-3">
+                <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#redes-sociais" aria-expanded="false" aria-controls="redes-sociais">
+                    Redes Sociais
+                </button>
+            </div>
+
+            <!-- Seção que contém os links das redes sociais -->
+            <div class="collapse mt-3" id="redes-sociais">
+                <h2>Redes Sociais:</h2>
+                <ul class="social-links">
+                    <li><a href="https://www.linkedin.com/in/bruno-zotareli-120a74309/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/BrunoZotareli" target="_blank"><i class="fab fa-github"></i> Github</a></li>
+                    <li><a href="https://www.instagram.com/bruno_zotareli" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -43,14 +60,13 @@
             </p>
         </div>
 
-    <!-- Botão Hobbies -->
+        <!-- Botão Hobbies -->
         <div class="mb-3">
             <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#hobbies" aria-expanded="false" aria-controls="hobbies">
                 Hobbies
             </button>
         </div>
 
-        
         <div class="collapse mt-3" id="hobbies">
             <h2>Hobbies</h2>
             <ul>
@@ -62,11 +78,10 @@
             </ul>
         </div>
 
-
         <!-- Botão Projetos -->
         <div class="mb-3">
             <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#projetos" aria-expanded="false" aria-controls="projetos">
-                 Projetos e Certificados
+                Projetos e Certificados
             </button>
         </div>
 
@@ -126,7 +141,7 @@
                 <tr>
                     <td>17/03/2025</td>
                     <td>Curso de Pentaho</td>
-                    <td>inciei um curso de pentaho para tratamento de dados</td>
+                    <td>Iniciei um curso de Pentaho para tratamento de dados</td>
                 </tr>
             </tbody>
         </table>
