@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio de Bruno Zotareli Fernandes</title>
 
-    <!-- Link para o CSS externo -->
+
     <link href="style.css" rel="stylesheet">
     <!-- Link para o Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,26 +14,25 @@
 
     <header>
         <div class="imagem-perfil">
-            <img src="imagens/perfil.jpg" alt="Foto de Bruno Zotareli Fernandes" class="rounded-circle" width="150" height="150">
+            <img src="perfil.jpg" alt="Foto de Bruno Zotareli Fernandes" class="rounded-circle" width="150" height="150">
         </div>
+
         <h1>Bruno Zotareli Fernandes</h1>
+
         <div class="informacoes-adicionais mt-3">
             <p><strong>Idade:</strong> 21 anos</p>
             <p><strong>Cidade:</strong> Maringá, Paraná</p>
             <p><strong>Cargo:</strong> Estagiário de Suporte na Tributech</p>
         </div>
     </header>
-    </header>
 
     <div class="container">
-
-        <div class="d-flex justify-content-center mb-3">
+        <!-- Botão Sobre Mim -->
+        <div class="mb-3">
             <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#sobre-mim" aria-expanded="false" aria-controls="sobre-mim">
                 Exibir Sobre Mim
             </button>
         </div>
-
-  
         <div class="collapse mt-3" id="sobre-mim">
             <h2>Sobre Mim</h2>
             <p>
@@ -44,16 +43,35 @@
             </p>
         </div>
 
-     
-        <div class="d-flex justify-content-center mb-3">
-            <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#projetos" aria-expanded="false" aria-controls="projetos">
-                Exibir Projetos
+    <!-- Botão Hobbies -->
+        <div class="mb-3">
+            <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#hobbies" aria-expanded="false" aria-controls="hobbies">
+                Hobbies
             </button>
         </div>
 
+        
+        <div class="collapse mt-3" id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Assistir/Jogar basquete</li>
+                <li>Jogar videojogos</li>
+                <li>Viajar</li>
+                <li>Comer novas comidas</li>
+                <li>Fazer hambúrguer</li>
+            </ul>
+        </div>
+
+
+        <!-- Botão Projetos -->
+        <div class="mb-3">
+            <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#projetos" aria-expanded="false" aria-controls="projetos">
+                 Projetos e Certificados
+            </button>
+        </div>
 
         <div class="collapse mt-3" id="projetos">
-            <h2>Projetos</h2>
+            <h2>Projetos:</h2>
             <div class="row">
                 <div class="col-md-6">
                     <div class="card">
@@ -67,7 +85,7 @@
                 <div class="col-md-6">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Certificados</h5>
+                            <h5 class="card-title">Certificados:</h5>
                             <ul>
                                 <li>Curso de PostgreSQL</li>
                                 <li>Curso de Jaspersoft</li>
@@ -101,15 +119,14 @@
                     <td>Conclui 3 issues que estavam em reproved no issue boards</td>
                 </tr>
                 <tr>
-                    <td>10/03/2025</td>
-                    <td>Comi Lasanha</td>
-                    <td>Comi uma lasanha que estava muito boa</td>
+                    <td>20/03/2025</td>
+                    <td>Teste de API</td>
+                    <td>Aprendi como funciona as API'S do sistema e aprendi a testar elas</td>
                 </tr>
             </tbody>
         </table>
 
- 
-        <h2 class="mt-4">Formulário de Contato</h2>
+        <h2 class="mt-4">Formulário de Contato:</h2>
         <form action="mailto:zotarelibruno@gmail.com" method="post" enctype="text/plain">
             <div class="mb-3">
                 <label for="nome" class="form-label">Nome</label>
@@ -127,12 +144,10 @@
         </form>
     </div>
 
-
     <footer>
         <p>Contato: <a href="mailto:zotarelibruno@gmail.com" class="text-white">zotarelibruno@gmail.com</a></p>
     </footer>
 
- 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
